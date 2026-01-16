@@ -1,0 +1,39 @@
+body {
+font-family: arial, sans-serif;
+margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: navy;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+th, td {
+border: 1px solid #333;
+padding: 10px;
+text-align: center ;
+}
+th {
+    background-color: #23409f;
+    color:#fff;
+}
+
+tr:nth-child(even){
+    background-color: #dadada;
+
+}
+tr:hover{
+    background-color: #b0c0d0;
+}
+footer{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
